@@ -75,12 +75,4 @@ public class Item {
     }
 }
 
-/*
- * The above Java class definition can be represented in Kotlin as follows:
- *
- *      data class Item(var id: String,
- *                      var name: String,
- *                      var price: Double,
- *                      var tax: Double)
- *
- */
+// data class Item(var id: String, var name: String, var price: Double, var tax: Double)
