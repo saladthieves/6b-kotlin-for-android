@@ -6,8 +6,20 @@ class Add(left: Double, right: Double) : Operation(left, right) {
     }
 }
 
-class Subtract
+class Subtract(left: Double, right: Double) : Operation(left, right) {
+    fun subtract() {
+        println("$left - $right = ${left - right}")
+    }
+}
 
-class Divide
+class Divide(left: Double, right: Double) : Operation(left, right) {
+    fun divide() {
+        println("$left / $right = ${left / right}")
+    }
+}
 
-class Multiply
+class Multiply(left: Double, right: Double) : Operation(left, right) {
+    fun multiply() {
+        println("$left / $right = ${left / right}")
+    }
+}
